@@ -1,0 +1,314 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.rightMenu {
+    margin-left: auto;
+}
+.rightMenu li{
+    display: inline-block;
+    margin-top: 30px  !important;
+   
+}
+.rightMenu li img{
+    height: 18px;
+    width: 18px;
+    margin-right: 20px;
+    cursor: pointer;
+}
+.navbar-brand img{
+    width: 160px;
+
+}
+.navbar-brand {
+    left: 50%;
+    top: 25px;
+    transform: translateX(-50%);
+    position: absolute;
+}
+.header{
+    background: #f5f6fc;
+    margin-bottom: 80px  !important;
+}
+.navbar{
+    padding: 0 35px !important;
+
+}
+
+.menu{
+    height: 20px;
+    width: 20px;
+}
+.navbar-toggler{
+    border: none !important;
+    outline: none !important;
+    padding: 0 !important;
+    margin-top: 30px;
+}
+.bannerImg{
+    margin: 88px 115px;
+    width: 68%;
+}
+.bannerImg img{
+    width: 100%;
+    height: 550px;
+    margin-bottom: -80px;
+}
+.banner{
+    position: relative;
+}
+.bannerTitle{
+    position: absolute;
+    left: 50%;
+    top: 20%;
+
+}
+.bannerTitle h1{
+    font-size: 55px;
+    background: rgba(0, 0, 0, 0.75);
+    color: #fff;
+    line-height: 70px;
+    padding: 10px 10px 0 10px;
+}
+.fashionTrends{
+    padding: 100px 0;
+
+}
+.fashionBox{
+    margin: 80px 0;
+
+}
+.titleStyle h1{
+    padding-top:15px;
+}
+.titleStyle{
+    margin: 0 auto 80px;
+    height: 80px;
+    text-align: center;
+    width: 80%;
+    max-width: 600px;
+    background: #fff;
+    position: relative;
+    box-shadow:0 4px 5px 0 rgba(0, 0, 50, 0.5) ;
+}
+.titleStyle::after{
+    content: '';
+    height: 60px;
+    width: 140px;
+    background-color: #f992a6;
+    position: absolute;
+    top: -11px;
+    left: -10px;
+    z-index: -1;
+}
+.titleStyle::before{
+    content: '';
+    height: 60px;
+    width: 140px;
+    background-color: #f992a6;
+    position: absolute;
+    bottom: -8px;
+    right: -10px;
+    z-index: -1;
+
+}
+.trendingImages{
+    position: relative;
+    margin-bottom: 15px;
+}
+.trendingImages img{
+    width: 100%;
+}
+.btnBuy{
+    width: 150px;
+    padding: 10px 0;
+    outline: none !important;
+    border: 0;
+    border-radius: 2px;
+    position: absolute;
+    background: #fff;
+    left: 50%;
+    bottom: 0;
+    transform: translate(-50%,0);
+    transition: 0.6s;
+    opacity: 0;
+    z-index: 1;
+
+}
+.trendingImages:hover .btnBuy{
+    transform: translate(-50%,50%);
+    bottom: 50%;
+    opacity:  1;
+}    
+.overlay{
+    height: 0;
+    width: 100%;
+    background: #333;
+    position: absolute;
+    top: 0;
+    opacity: 0.5;
+    transition: 0.5s;
+
+}
+.trendingImages:hover .overlay{
+    opacity: 0.5;
+}
+.offer{
+    background-image: url(./images/fashion.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.row{
+    margin: initial  !important;
+}
+.subscribe{
+    max-width: 500px;
+    margin-top: 80px;
+    padding: 60px;
+    background: #ffffff8c;
+    margin-bottom: 20px;
+}
+.subscribe a{
+    width: 100px;
+    display: block;
+    color: #fff !important;
+    background: #000;
+    text-decoration: none;
+    padding: 5px;
+    text-align: center;
+
+}
+.offer img{
+    width: 300px;
+    height: 400px;
+    margin: -100px;
+    margin-top: 150px;
+}
+.fashionBlog{
+    margin: 250px 0 150px 0;
+}
+.blogImage{
+    margin-top: 50px;
+    height: 300px;
+    width: 300px;
+    display: inline-block;
+}
+.blogImage img{
+    width: 100%;
+    height: 100%;
+}
+.fashionBlog h5{
+    margin-top: 20px;
+    font-weight:bold  ;
+}
+.fashionBrands{
+    margin-bottom: 150px;
+}
+.brandLogo{
+    width: 200px;
+    height: 200px;
+    background: #fff;
+    border-radius: 50%;
+    margin: 50px auto 30px;
+    box-shadow: 0 2px 40px 0 rgba(110, 130, 208, .18);
+
+}
+.brandLogo img{
+    width: 100px;
+    margin: 50px auto ;
+}
+.fashionBrands p{
+    margin-top: 30px;
+    font-weight: bold;
+}
+footer{
+    margin-top: 150px;
+    background: #f5f6fc;
+}
+.payment{
+    margin: 50px auto;
+}
+.payment img{
+    width: 300px;
+    cursor: pointer;
+}
+.instaImg img{
+    width: 75px;
+    padding: 5px;
+    cursor: pointer;
+}
+.appDownload img{
+    width: 200px;
+
+}
+footer h5{
+    margin-bottom: 50px;
+}
+footer h5::before{
+    content: '';
+    width: 80px;
+    height: 3px;
+    background: #4f74e8;
+    top: 75px;
+    position: absolute;
+}
+.footerIcons img{
+    height: 20px;
+    width: 20px;
+    margin: 0 10px auto;
+}
+.footerIcons {
+    text-align: right;
+}
+
+
+@media(max-width:700px){
+    .bannerImg{
+        margin: 40px auto;
+        width: 80%;
+    }
+    .bannerTitle{
+        position: absolute;
+        transform: translate(-50%);
+        left: 50%;
+        top: 115%;
+    }
+    .bannerImg img{
+        width: 400px;
+        height: 400px;
+    }
+    .bannerTitle h1{
+        font-size: 18px;
+        padding: 5px;
+        line-height: 20px;
+    }
+    .titleStyle h1{
+        font-size: 25px;
+    }
+    .titleStyle {
+       height: 60px;
+     
+    }
+    .titleStyle::after {
+        height: 50px;
+        width: 100px;
+        top: -6px;
+        left: -6px;
+    }
+    .titleStyle::before {
+        height: 50px;
+        width: 100px;
+        bottom: -6px;
+        right: -6px;
+    }
+    .offer img{
+        margin-top: 20px;
+        margin-bottom: 0;
+    }
+    .footerIcons {
+        text-align: center;
+    }
+    .copyright{
+        text-align: center;
+    }
+}
